@@ -6,4 +6,4 @@ class TestSimpleApp(TestCase):
         self.assertEqual(2 + 3, 5)
 
     def test_list_contains_element(self):
-        self.assertIn(3, [1, 2, 3, 4, 5])
+        self.assertIn(3, [1, 2, 2, 4, 5])
