@@ -24,4 +24,4 @@ jobs:
       - uses: actions/checkout@main
       - name: Testing
         run: pip install pytest
-      - run: pytest
+      - run: pytestаше
